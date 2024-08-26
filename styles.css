@@ -42,6 +42,7 @@ h2 {
 
 h1 {
   font-size: 6rem;
+  color: #620359;
 }
 
 h2 {
@@ -66,7 +67,7 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--purpletwo);
+    background: linear-gradient(45deg, #2c0149 0%, #000 100%);
     box-shadow: 0 2px 0 rgba(0,0,0,0.4);
     z-index: 10;
   }
@@ -92,19 +93,20 @@ ul {
     width: 100%;
     height: 100vh;
     background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #46104A 100%);
+    background-image: url(./img/moon.png);
+    background-position: center;
   }
   
   .welcome-section > p {
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--bluethree);
+    color: var(--purpletwo);
   }
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: #322755;
+    background: linear-gradient(225deg, #490138 0%, #000 100%);;
   }
   
   .projects-section-header {
@@ -224,6 +226,7 @@ ul {
   footer i {
     vertical-align: middle;
   }
+
   @media (max-width: 30.625em) {
     .projects-section {
       padding: 6rem 1rem;
@@ -232,6 +235,7 @@ ul {
     .projects-grid {
       grid-template-columns: 1fr;
     }
+   
   }
   @media (max-width: 28.75em) {
     .nav {
@@ -252,5 +256,6 @@ ul {
         text-align: center;
       }
   }
+  
   
   
